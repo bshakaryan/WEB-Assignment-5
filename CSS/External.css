@@ -1,0 +1,111 @@
+/* Navigation Menu */
+.navbar {
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, sans-serif;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, sans-serif;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+
+/* Headers */
+.first-header {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, sans-serif;
+    font-size: 30px;
+}
+
+.gallery-header {
+    font-family: -apple-system, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+}
+
+.card-body {
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+}
+
+/* Paragraphs */
+.info-paragraph {
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    font-family: -apple-system, sans-serif;
+    font-size: 18px;
+    text-indent: 30px;
+    max-width: 90%;
+}
+
+/* Carousel */
+
+.my-carousel img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 700px;
+}
+
+
+/*Footer */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.container-fluid {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+/*Themes*/
+.day {
+    background-color: white;
+    color: black;
+}
+
+.night {
+    background-color: black;
+    color: white;
+}
+
+/* Rating */
+.star {
+    cursor: pointer;
+    font-size: 30px;
+    color: gray;
+}
+
+.star.selected {
+    color: gold;
+}
